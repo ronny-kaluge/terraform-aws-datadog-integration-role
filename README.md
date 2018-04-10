@@ -1,4 +1,4 @@
-# terraform-aws-datadog-integration-role
+# terraform-aws-iam-role-datadog-integration
 Terraform module which creates an IAM Role for DataDog integration.
 
 Usage
