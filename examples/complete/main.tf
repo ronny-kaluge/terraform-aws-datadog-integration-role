@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 module "this" {
-  source = "../.." # In actual use case, you have to replace this line with: source = "github.com/traveloka/terraform-aws-datadog-integration-role.git//modules/external?ref=0.0.1"
+  source = "../.." # In actual use case, you have to replace this line with: source = "github.com/traveloka/terraform-aws-iam-role-datadog-integration.git?ref=0.0.1"
 
   external_id = "2ce986a8821c412ebec3231d6564856c"
 }
