@@ -6,8 +6,8 @@ Usage
 
 ```hcl
 module "aws-datadog-integration-role" {
-  source  = "github.com/traveloka/terraform-aws-iam-role-datadog-integration.git?ref=0.0.1"
-  version = "0.0.1"
+  source  = "github.com/traveloka/terraform-aws-iam-role-datadog-integration.git?ref=v0.1.0"
+  version = "0.1.0"
 
   external_id = "abcdef0123456789abcdef0123456789"
 }
